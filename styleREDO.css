@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #223c69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Gloria Hallelujah', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.tools{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    align-items: center;
+}
+
+.utensils{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    background-color: #a7c5fc;
+}
+
+.utensils button{
+    padding: 6px 8px;
+}
+
+.newGrid{
+    padding: 6px 8px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #a7c5fc;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+.square{
+    border: 1px solid #ccc;
+    background-color: white;
+}
